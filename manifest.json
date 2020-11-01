@@ -1,7 +1,7 @@
 {
   "name": "rat-parts-app",
   "short_name": "rat-parts-app",
-  "start_url": "/",
+  "start_url": "/rat-parts-app/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
