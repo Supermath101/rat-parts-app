@@ -11,9 +11,9 @@ const App = () => (
 	<div id="app">
 		<Header />
 		<Router>
-			<Home path="/rat-parts-app/" />
-			<Parts path="/rat-parts-app/parts/" part={null} />
-			<Parts path="/rat-parts-app/parts/:part" />
+			<Home path="/" />
+			<Parts path="/parts/" part={null} />
+			<Parts path="/parts/:part" />
 		</Router>
 	</div>
 )
