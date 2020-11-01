@@ -3,3 +3,17 @@
 	min-height: 100%;
 	width: 100%;
 }
+.part_link {
+	color: #222;
+	text-decoration: none;
+	
+}
+.part_list {
+	list-style: none;
+}
+
+.part_link:hover {
+	color: #111;
+	font-weight: bold;
+	text-decoration: underline;
+}
