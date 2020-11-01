@@ -15,7 +15,7 @@ const Parts = ({ part }) => {
 			<div>
 				<ul class={style.part_list}>
 				{data.parts.map((part, i) => <li>
-						<Link class={style.part_link} href={`/parts/${i}`}>{part.name}</Link>
+						<Link class={style.part_link} href={`/rat-parts-app/parts/${i}`}>{part.name}</Link>
 					</li>)}
 				</ul>
 			</div>
