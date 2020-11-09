@@ -11,6 +11,7 @@ const App = () => (
 	<div id="app">
 		<Header />
 		<Router>
+			{/* Put all page components in here. */}
 			<Home path="/" />
 			<Parts path="/parts/" part={null} />
 			<Parts path="/parts/:part" />

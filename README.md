@@ -1,6 +1,23 @@
-# rat-parts-app
+# Rat Parts App
 
-## CLI Commands
+This is an app used for looking up parts for the Great Neck South HS Robotics team! This app is published at [rat-parts-app.supermath101.tk](https://rat-parts-app.supermath101.tk/). To test out locally, first run `npm install` once, then run `npm run dev`. The app will now auto-update on each code change.
+
+## General Folder Structure
+
+The folders are structured like this:
+
+```
+/ - Project Root
+|  src/ - Primary Code Folder
+|  |  components/ - Folder for all general purpose React components.
+|  |  |  app.js - Starting App Component; Where all the code begins
+|  |  routes/ - Folder containing subfolders, one for each "webpage".
+|  |  style/ - Folder for Stylesheets.
+```
+
+---
+
+## Originally Stated CLI Commands
 
 ``` bash
 # install dependencies
@@ -18,5 +35,3 @@ npm run serve
 # run tests with jest and enzyme
 npm run test
 ```
-
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
